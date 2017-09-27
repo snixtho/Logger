@@ -31,3 +31,7 @@ Log.Instance().LogLevel = Log.LogType.Verbose;
 ```
 
 For more usage options, refer to the code, it is heavy documented.
+
+## Installation
+You can download the latest build here: https://github.com/snixtho/Logger/releases
+After download, just add it as a reference to your project.
