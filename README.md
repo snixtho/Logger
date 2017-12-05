@@ -11,16 +11,16 @@ Log.AddLogFile("mylog.log");
 Log.Info("my info log message");
 
 // Log a warning
-Log.Info("my warning log message");
+Log.Warning("my warning log message");
 
 // Log an error
-Log.Info("my error log message");
+Log.Error("my error log message");
 
 // Log a debug message
-Log.Info("my debug log message");
+Log.Debug("my debug log message");
 
 // Log an verbose message
-Log.Info("my verbose log message");
+Log.Verbose("my verbose log message");
 ```
 
 The logger supports logging up to a configured severity level. For example, if the severity level is `Error`, then log messages with severity `Error` and below will be logged. The default severity level is
